@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.dam.cafepunto.databinding.FragmentHomeBinding
 
 // Pantalla a la que se llega tras iniciar sesión correctamente
-class HomeFragment : Fragment() {
+class ListFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
